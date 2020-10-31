@@ -1,0 +1,1 @@
+This is the readme file for my first web-page assignment for the Odin Project. I will demonstrate basic web design skills in the following HTML and CSS documents.
