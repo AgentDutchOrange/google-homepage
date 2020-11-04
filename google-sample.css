@@ -1,0 +1,72 @@
+#nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+}
+#nav-bar-left {
+    display: flex;
+    justify-content: flex-start;
+}
+#nav-bar-left a{
+    margin-right: 15px;
+}
+#nav-bar-right {
+    display: flex;
+    justify-content: flex-end; 
+}
+#nav-bar-right a { 
+    margin-left: 15px;
+}
+#nav-bar-right button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(67, 134, 250);
+    border-radius: 3px;
+}
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
+#main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#google-search {
+    margin-right: 10px;
+}
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 82px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #f2f2f2;
+}
+#canada {
+    grid-column: 1;
+    grid-row: 1
+}
+#footer-bar-left {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-start;
+}
+#footer-bar-left a {
+    margin-right: 15px;
+}
+#footer-bar-right {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+#footer-bar-right a{
+    margin-right: 15px;
+}
