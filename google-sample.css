@@ -35,8 +35,31 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#logo {
+    margin-left: 70px;
+}
+#search-bar { 
+    border-radius: 24px;
+    height: 30px;
+    margin-bottom: 30px;
+}
 #google-search {
     margin-right: 10px;
+    margin-left: 70px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #5f6368;
+    font-size: 14px;
+}
+#feeling-lucky {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #5f6368;
+    font-size: 14px;
 }
 footer {
     position: absolute;
@@ -50,13 +73,18 @@ footer {
 }
 #canada {
     grid-column: 1;
-    grid-row: 1
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 #footer-bar-left {
     grid-column: 1;
     grid-row: 2;
     display: flex;
     justify-content: flex-start;
+    border-top: 1px solid #dadce0;
+    align-items: center;
 }
 #footer-bar-left a {
     margin-right: 15px;
@@ -66,7 +94,14 @@ footer {
     grid-row: 2;
     display: flex;
     justify-content: flex-end;
+    border-top: 1px solid #dadce0;
+    align-items: center;
 }
 #footer-bar-right a{
     margin-right: 15px;
+}
+.footer-links {
+    color: #70757a;
+    font: 14px arial, sans-serif;
+    text-decoration: none;
 }
